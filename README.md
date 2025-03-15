@@ -49,23 +49,24 @@ Tracking Calorie Intake – Users log their food consumption, and the system pro
 How does meal categorization impact dietary goals?
 The program classifies meals into low, medium, and high-calorie groups to provide diverse yet effective dietary choices.
 
-Example Visualization:
-(A bar chart showing average calories per meal category and their contribution to total daily intake.)
+![image](https://github.com/user-attachments/assets/4090105e-ce3c-4aac-91d3-528787cabba8)
+
 
 Does tracking calorie intake improve adherence to fitness goals?
 Users who track their meals daily show higher consistency in maintaining their target calorie range.
-
 Deviation from recommended intake is minimized to within ±10% for most users.
 Higher adherence leads to more successful weight management outcomes.
-Example Visualization:
-(A line graph depicting calorie consumption trends over time.)
+
+![image](https://github.com/user-attachments/assets/560f7966-95a8-49f9-9a7c-172cd22983ce)
+
+
 
 ## Implementation Details
 ## 1. Setting Fitness Goals
 User Inputs:
 
-Name, gender, height, current weight
-Target weight and timeline
+Name, gender, height, current weight, target weight and timeline
+
 Process:
 
 The system validates the timeline to ensure realistic weight changes.
