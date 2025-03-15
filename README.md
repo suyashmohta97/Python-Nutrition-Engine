@@ -34,7 +34,7 @@ Calorie tracking (recorded against the recommended intake).
 Programming Language: Python
 APIs Used: Nutritionix
 Data Handling: JSON & Environment Variables
-Visualization: Matplotlib, Tableau (if applicable)
+Visualization: Matplotlib
 
 ## Executive Summary
 The Fitness Goal Tracker and Nutrition Program integrate goal-setting, meal planning, and calorie tracking into a seamless experience. By utilizing the Nutritionix API, users receive accurate nutritional data to maintain a balanced diet.
