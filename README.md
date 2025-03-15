@@ -1,41 +1,42 @@
 # Python-Nutrition-Engine
 # Fitness Goal Tracker & Nutrition Program
-# Project Background
+## Project Background
 
-<img width="1470" alt="image" src="https://github.com/user-attachments/assets/5d5d7d9f-f788-4ef2-9f5f-7cc09347c01b" />
+![image](https://github.com/user-attachments/assets/d5dfd6a2-bc1f-4ea8-87e7-e2f320a3ffab)
+
 
 The Fitness Goal Tracker and Nutrition Program are designed to assist users in setting realistic fitness goals, receiving personalized meal recommendations, and tracking their daily calorie intake. These applications leverage the Nutritionix API to provide accurate nutritional information and guide users toward achieving their health objectives.
 
-# Problem Statement
+## Problem Statement
 Many individuals struggle with setting realistic fitness goals and maintaining a balanced diet. This project aims to bridge the gap between goal-setting and actionable nutritional planning by dynamically suggesting meal plans based on calorie requirements and tracking daily consumption.
 
-# Research Objectives
+## Research Objectives
 Assist users in setting achievable fitness goals based on their target weight and timeline.
 Generate personalized meal recommendations using real-time nutritional data.
 Track calorie intake to ensure users stay within their recommended range.
 Provide insights into how meal consumption aligns with fitness goals.
 
-# Hypothesis
+## Hypothesis
 Realistic goal-setting improves adherence to fitness plans.
 Personalized meal suggestions lead to better diet management and user satisfaction.
 Tracking calorie intake helps users stay accountable and reach their target weight more effectively.
 Dynamic meal adjustments ensure users do not significantly deviate from their daily calorie needs.
 
-# Data Overview
+## Data Overview
 This project uses the Nutritionix API to fetch real-time food data. The system processes:
 
 User inputs (weight, height, gender, goal timeline).
 Meal selection (categorized into low, medium, and high-calorie meals).
 Calorie tracking (recorded against the recommended intake).
 
-# Technology Stack:
+## Technology Stack:
 
 Programming Language: Python
 APIs Used: Nutritionix
 Data Handling: JSON & Environment Variables
 Visualization: Matplotlib, Tableau (if applicable)
 
-# Executive Summary
+## Executive Summary
 The Fitness Goal Tracker and Nutrition Program integrate goal-setting, meal planning, and calorie tracking into a seamless experience. By utilizing the Nutritionix API, users receive accurate nutritional data to maintain a balanced diet.
 
 The system is divided into three main parts:
@@ -44,7 +45,7 @@ Setting Fitness Goals – Users input their weight goals, and the program calcul
 Dietary Recommendations – Based on the target calorie intake, the program generates a personalized meal plan.
 Tracking Calorie Intake – Users log their food consumption, and the system provides insights into their progress.
 
-# Key Findings & Insights
+## Key Findings & Insights
 How does meal categorization impact dietary goals?
 The program classifies meals into low, medium, and high-calorie groups to provide diverse yet effective dietary choices.
 
@@ -59,8 +60,8 @@ Higher adherence leads to more successful weight management outcomes.
 Example Visualization:
 (A line graph depicting calorie consumption trends over time.)
 
-# Implementation Details
-# 1. Setting Fitness Goals
+## Implementation Details
+## 1. Setting Fitness Goals
 User Inputs:
 
 Name, gender, height, current weight
@@ -75,7 +76,7 @@ Calorie Adjustment = (7700 × ∣Target Weight − Current Weight∣) / Days�
  
 The user receives a daily calorie recommendation based on their goal.
 
-# 2. Dietary Recommendations
+## 2. Dietary Recommendations
 User Inputs:
 
 Preferred number of meals per day
@@ -87,7 +88,7 @@ Adjustments are made to prevent deviation >10% from the target intake.
 Example Visualization:
 (Pie chart showing distribution of meal categories in a sample meal plan.)
 
-# 3. Tracking Calorie Intake
+## 3. Tracking Calorie Intake
 User Inputs:
 
 Food items and servings consumed per meal
@@ -99,10 +100,10 @@ Users receive feedback based on calorie surplus or deficit.
 Example Visualization:
 (Histogram showing frequency of users meeting, exceeding, or falling short of their calorie targets.)
 
-# Conclusion
+## Conclusion
 The Fitness Goal Tracker & Nutrition Program provide a structured approach to goal setting, meal planning, and calorie tracking. The integration of real-time nutritional data ensures that users receive accurate recommendations tailored to their fitness objectives.
 
-# Future Enhancements:
+## Future Enhancements:
 
 Implement machine learning models to suggest optimal meal plans based on user preferences.
 Introduce mobile integration for easier meal logging.
