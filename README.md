@@ -78,7 +78,6 @@ Calorie Adjustment = (7700 × ∣Target Weight − Current Weight∣) / Days�
 The user receives a daily calorie recommendation based on their goal.
 
 ## 2. Dietary Recommendations
-User Inputs:
 
 Preferred number of meals per day
 Process:
@@ -90,7 +89,6 @@ Example Visualization:
 (Pie chart showing distribution of meal categories in a sample meal plan.)
 
 ## 3. Tracking Calorie Intake
-User Inputs:
 
 Food items and servings consumed per meal
 Process:
