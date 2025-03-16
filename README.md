@@ -1,5 +1,5 @@
 # Python-Nutrition-Engine
-##Fitness Goal Tracker & Nutrition Program
+## Fitness Goal Tracker & Nutrition Program
 ## Project Background
 
 ![image](https://github.com/user-attachments/assets/d5dfd6a2-bc1f-4ea8-87e7-e2f320a3ffab)
